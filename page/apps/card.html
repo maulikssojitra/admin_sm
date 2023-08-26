@@ -1,0 +1,2438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Css links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="../../assets/css/all.min.css">
+    <!-- icons -->
+
+    <!-- code -->
+    <link rel="stylesheet" href="../../assets/css/prism.css">
+    <!-- code -->
+
+    <link href="../../assets/css/style.css" rel="stylesheet">
+    <!-- Css links -->
+
+</head>
+
+<body id="body">
+
+    <main>
+        <div class="overlay d-none" style="z-index: 999;" id="overlay"></div>
+        <div class="layout light_theme ">
+
+            <div class="sidebar" id="sidebar">
+                <div class="logo">
+                    <a href="../../index.html">
+                        <img src="../../assets/img/logo.svg" alt="logo" width="200px" />
+                    </a>
+                </div>
+                <div class="menu px-4 mb-4">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                        <div class="main mt-3">
+                            <label class="menu-title">MAIN</label>
+                            <a href="../../index.html">
+                                <i class="bi bi-house-door"></i>
+                                Dashboard
+                            </a>
+                        </div>
+
+                        <div class="main mt-4 pt-2">
+
+                            <label class="menu-title">UI KIT</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <i class="bi bi-terminal"></i>
+                                        Apps
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="./card.html" class="active">Cards design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Default calendar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Full calendar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">chat</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Notifications</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sweet alerts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Range slider</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Content Scroll bar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Loaders</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Counters</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Rating</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Timeline</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Treeview</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Footers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">User List</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Search</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Crypto-currencies</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Widgets</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <i class="bi bi-box-seam"></i>
+                                        Bootstrap
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Alerts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Buttons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Colors</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Avatar Square</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Avatar Radius</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Avatar Rounded</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Dropdowns</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">List Group</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tags</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Pagination</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Navigation</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Typography</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Breadcrumbs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Badges / Pills</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">panels</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Thumbnails</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Offcanvas</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">toast</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Scrollspy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Media Object</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Accordions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tabs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Modal</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tooltip and popover</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Progress</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">carousels</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ribbons</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="main mt-3">
+                            <a href="./index.html">
+                                <i class="bi bi-lightning-charge"></i>
+                                Landing Page
+                                <span class="badge text-bg-success ms-auto">New</span>
+                            </a>
+                        </div>
+
+                        <div class="main mt-4 pt-3">
+                            <label class="menu-title">PRE-BUILD PAGES</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTree" aria-expanded="false"
+                                        aria-controls="flush-collapseTree">
+                                        <i class="bi bi-layers"></i>
+                                        Pages
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Edit Profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Notifications List</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mail-compose</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mail-Inbox</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gallery</a>
+                                            </li>
+
+                                            <div class="accordion accordion-flush" id="accordionFlushExampleSub">
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseSubOne"
+                                                                aria-expanded="false"
+                                                                aria-controls="flush-collapseSubOne">
+                                                                Forms
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseSubOne"
+                                                            class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#accordionFlushExampleSub">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">Form Elements</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Layouts</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">corm Advanced</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Editor</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Wizard</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Validation</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Input Spinners</a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseSubTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="flush-collapseSubTwo">
+                                                                Tables
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseSubTwo"
+                                                            class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#accordionFlushExampleSub">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">Default table</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Data Tables</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Edit Tables</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Extension Tables</a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseSubTree"
+                                                                aria-expanded="false"
+                                                                aria-controls="flush-collapseSubTree">
+                                                                Extension
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseSubTree"
+                                                            class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#accordionFlushExampleSub">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">About Company</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Services</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">FAQS</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Terms</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Invoice</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Pricing Tables</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Settings</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Blog</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Blog Details</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Blog Post</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Empty page</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Under Construction</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </div>
+
+                                            <li>
+                                                <a href="#">Switcher</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        <i class="bi bi-cart2"></i>
+                                        E-commerce
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Shop</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">product Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shopping Cart</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Add Product</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Wishlist</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Checkout</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed arrow_none" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                        aria-expanded="false" aria-controls="flush-collapseFive">
+                                        <i class="bi bi-folder"></i>
+                                        File Manager
+                                        <span class="badge text-bg-primary ms-auto ">4</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">File Manager</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">File Manager List</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">File Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">File Attachments</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main mt-4 pt-2">
+
+                            <label class="menu-title">MISC PAGES</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                        aria-controls="flush-collapseSix">
+                                        <i class="bi bi-people"></i>
+                                        Authentication
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Login</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Forgot password</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lock screen</a>
+                                            </li>
+
+                                            <div class="accordion accordion-flush" id="Errorpages">
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#flush-Error"
+                                                                aria-expanded="false" aria-controls="flush-Error">
+                                                                Error Pages
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-Error" class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#Errorpages">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">400</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">401</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">403</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">404</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">500</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">503</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </div>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="main mt-4 pt-3">
+                            <label class="menu-title">GENERAL</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                        aria-controls="flush-collapseSeven">
+                                        <i class="bi bi-map"></i>
+                                        Maps
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Leaflet Maps</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mapel Maps</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">vector Maps</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed arrow_none" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                                        aria-expanded="false" aria-controls="flush-collapseEight">
+                                        <i class="bi bi-bar-chart"></i>
+                                        Charts
+                                        <span class="badge text-bg-info ms-auto">9</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Chart Js</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Flot Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">ECharts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Morris Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">NVd3 Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Bar Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Line Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Donut Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Pie charts</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-nine" aria-expanded="false" aria-controls="flush-nine">
+                                        <i class="bi bi-wind"></i>
+                                        Icons
+                                    </button>
+                                </h2>
+                                <div id="flush-nine" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Font Awesome</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Material Design Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Simple Line Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Feather Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ionic Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Flag Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">pe7 Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Themify Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Typicons Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Weather Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bootstrap Icons</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main-content" id="main_content">
+
+                <header class="header d-flex align-items-center justify-content-between" id="header">
+                    <div class="d-flex align-items-center gap-4">
+                        <button class="toggle-sidebar" id="toggleButton">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </button>
+                        <input type="text" placeholder="Search for results..." />
+                    </div>
+
+                    <div class="d-flex align-items-center gap-4 header-tools">
+
+                        <button onclick="openFullscreen();">
+                            <i class="fa-solid fa-compress"></i>
+                        </button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu notify-body p-0">
+                                <h6>notifications</h6>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-purple">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>New Application received </p>
+                                            <span> 3 days ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-blue">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>Project has been approved </p>
+                                            <span> 2 hours agn</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-green">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>Your Product Delivered</p>
+                                            <span>30 min ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-pink">
+                                            <i class="fa-solid fa-user-plus"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>Friend Requests</p>
+                                            <span>1 day ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="../../assets/img/user2.jpg" alt="user" class="profile" />
+                            </button>
+                            <ul class="dropdown-menu p-0 profile-menu">
+                                <div class="notify-text text-center p-3">
+                                    <p>Percy Kewshun</p>
+                                    <span>Senior Admin</span>
+                                </div>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-person"></i>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-envelope"></i>
+                                        Inbox
+                                        <span class="badge text-bg-danger ms-auto">10</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-shield-lock"></i>
+                                        Lock screen
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-exclamation-octagon"></i>
+                                        Sign out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </header>
+
+                <div class="content py-4 px-3 px-sm-4">
+
+                    <div class="dashboard">
+                        <h5>Cards</h5>
+
+                        <section class="mt-4 card-main">
+                            <div class="row align-items-start">
+
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Card Subtitle</label>
+                                        <button class="showCode" data-target="instance1">
+                                            <i class="fa-solid fa-code"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- preview -->
+                                    <div class="card sub_title_box border-0 shadow-sm" id="output_instance1">
+                                        <div class="card-body">
+                                            <h6 class="card-title mb-1 text-capitalize">Card title</h6>
+                                            <label>Card Subtitle</label>
+                                            <p class="card-text mt-2 mb-3">Some quick example text to build on
+                                                the card title
+                                                and
+                                                make up the bulk of the card's content.</p>
+                                            <div class="d-flex align-items-center flex-wrap gap-3 card-links">
+                                                <a href="#">Card-link</a>
+                                                <a href="#">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- preview -->
+
+                                    <!-- source code -->
+                                    <div id="source_code_instance1" class="code-main">
+
+                                        <ul class="nav nav-pills mb-1 justify-content-end" id="pills-tab"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="card_subtitle_html"
+                                                    data-bs-toggle="pill" data-bs-target="#pills-card_subtitle_html"
+                                                    type="button" role="tab" aria-controls="pills-card_subtitle_html"
+                                                    aria-selected="true">HTML</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="card_subtitle_css" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-card_subtitle_css" type="button" role="tab"
+                                                    aria-controls="pills-card_subtitle_css"
+                                                    aria-selected="false">CSS</button>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content" id="pills-tabContent">
+
+                                            <div class="tab-pane fade show active" id="pills-card_subtitle_html"
+                                                role="tabpanel" aria-labelledby="card_subtitle_html" tabindex="0">
+                                                <pre class="language-html">
+                                                    <code>
+                                                        &lt;div class="card sub_title_box border-0 shadow-sm"&gt;
+                                                            &lt;div class="card-body"&gt;
+                                                                &lt;h6 class="card-title mb-1 text-capitalize"&gt;Card Title&lt;/h6&gt;
+                                                                &lt;label&gt;Card Subtitle&lt;/label&gt;
+                                                                &lt;p class="card-text mt-2 mb-3"&gt;Some quick example text to build on the card title and make up the bulk of the card's content.&lt;/p&gt;
+                                                                &lt;div class="d-flex align-items-center flex-wrap gap-3 card-links"&gt;
+                                                                    &lt;a href="#"&gt;Card-link&lt;/a&gt;
+                                                                    &lt;a href="#"&gt;Another link&lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="pills-card_subtitle_css" role="tabpanel"
+                                                aria-labelledby="card_subtitle_css" tabindex="0">
+                                                <pre class="language-css">
+                                                    <code>
+                                                        .card.sub_title_box h6 {
+                                                            color: #2a2a4a;
+                                                        }
+                                                        
+                                                        .card.sub_title_box label {
+                                                            font-size: 14px;
+                                                            color: #74829c;
+                                                        }
+                                                        
+                                                        .card.sub_title_box p {
+                                                            font-size: 14px;
+                                                            color: #282f53;
+                                                        }
+                                                        
+                                                        .card.sub_title_box .card-links a {
+                                                            color: #0093ED;
+                                                            font-size: 12px;
+                                                            text-decoration: none;
+                                                        }
+                                                        
+                                                        .card.sub_title_box .card-links a:hover {
+                                                            text-decoration: underline;
+                                                        }
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- source code -->
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-md-0">
+
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Card Header</label>
+                                        <button class="showCode" data-target="instance2">
+                                            <i class="fa-solid fa-code"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- preview -->
+                                    <div class="card card_header_box border-0 shadow-sm" id="output_instance2">
+                                        <div class="card-header py-3">
+                                            <h6 class="card-title">Card Header</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text mb-3">With supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                            <button class="btn">Go Somewhere</button>
+                                        </div>
+                                    </div>
+                                    <!-- preview -->
+
+                                    <!-- source code -->
+                                    <div id="source_code_instance2" class="code-main">
+
+                                        <ul class="nav nav-pills mb-1 justify-content-end" id="pills-tab"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="Card_header_html"
+                                                    data-bs-toggle="pill" data-bs-target="#pills-Card_header_html"
+                                                    type="button" role="tab" aria-controls="pills-Card_header_html"
+                                                    aria-selected="true">HTML</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="card_header_css" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-card_header_css" type="button" role="tab"
+                                                    aria-controls="pills-card_header_css"
+                                                    aria-selected="false">CSS</button>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content" id="pills-tabContent">
+
+                                            <div class="tab-pane fade show active" id="pills-Card_header_html"
+                                                role="tabpanel" aria-labelledby="Card_header_html" tabindex="0">
+                                                <pre class="language-html">
+                                                    <code>
+                                                        &lt;div class="card card_header_box border-0 shadow-sm"&gt;
+                                                            &lt;div class="card-header py-3"&gt;
+                                                                &lt;h6 class="card-title"&gt;Card Header&lt;/h6&gt;
+                                                            &lt;/div&gt;
+                                                            &lt;div class="card-body"&gt;
+                                                                &lt;p class="card-text mb-3"&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+                                                                &lt;button class="btn"&gt;Go Somewhere&lt;/button&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="pills-card_header_css" role="tabpanel"
+                                                aria-labelledby="card_header_css" tabindex="0">
+                                                <pre class="language-css">
+                                                    <code>
+                                                        .card.card_header_box h6 {
+                                                            color: #2a2a4a;
+                                                        }
+                                                        
+                                                        .card.card_header_box .card-header {
+                                                            background-color: transparent;
+                                                        }
+                                                        
+                                                        .card.card_header_box p {
+                                                            font-size: 14px;
+                                                            color: #282f53;
+                                                        }
+                                                        
+                                                        .card.card_header_box button {
+                                                            font-size: 14px;
+                                                            background-color: #0092ed0a;
+                                                            border: 1px solid #0093ED;
+                                                            color: #0093ED;
+                                                        }
+
+                                                        .card.card_header_box button:hover {
+                                                            background-color: #0093ED;
+                                                            color: #fff;
+                                                        }
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- source code -->
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mt-lg-0">
+
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Card Footer</label>
+                                        <button class="showCode" data-target="instance3">
+                                            <i class="fa-solid fa-code"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- preview -->
+                                    <div class="card card_footer_box border-0 shadow-sm" id="output_instance3">
+                                        <div class="card-body">
+                                            <p class="card-text mb-3">With supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                            <button class="btn">Go Somewhere</button>
+                                        </div>
+                                        <div class="card-footer py-3">
+                                            <p>Card Footer</p>
+                                        </div>
+                                    </div>
+                                    <!-- preview -->
+
+                                    <!-- source code -->
+                                    <div id="source_code_instance3" class="code-main">
+
+                                        <ul class="nav nav-pills mb-1 justify-content-end" id="pills-tab"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="Card_footer_html"
+                                                    data-bs-toggle="pill" data-bs-target="#pills-Card_footer_html"
+                                                    type="button" role="tab" aria-controls="pills-Card_footer_html"
+                                                    aria-selected="true">HTML</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="card_footer_css" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-card_footer_css" type="button" role="tab"
+                                                    aria-controls="pills-card_footer_css"
+                                                    aria-selected="false">CSS</button>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content" id="pills-tabContent">
+
+                                            <div class="tab-pane fade show active" id="pills-Card_footer_html"
+                                                role="tabpanel" aria-labelledby="Card_footer_html" tabindex="0">
+                                                <pre class="language-html">
+                                                    <code>
+                                                        &lt;div class="card card_footer_box border-0 shadow-sm"&gt;
+                                                            &lt;div class="card-body"&gt;
+                                                                &lt;p class="card-text mb-3"&gt;With supporting text below as a natural lead-in to additional content.&lt;/p&gt;
+                                                                &lt;button class="btn"&gt;Go Somewhere&lt;/button&gt;
+                                                            &lt;/div&gt;
+                                                            &lt;div class="card-footer py-3"&gt;
+                                                                &lt;p&gt;Card Footer&lt;/p&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="pills-card_footer_css" role="tabpanel"
+                                                aria-labelledby="card_footer_css" tabindex="0">
+                                                <pre class="language-css">
+                                                    <code>
+                                                        .card.card_footer_box p {
+                                                            font-size: 14px;
+                                                            color: #282f53;
+                                                        }
+                                                        
+                                                        .card.card_footer_box button {
+                                                            font-size: 14px;
+                                                            background-color: #0092ed0a;
+                                                            border: 1px solid #0093ED;
+                                                            color: #0093ED;
+                                                        }
+                                                        
+                                                        .card.card_footer_box button:hover {
+                                                            background-color: #0093ED;
+                                                            color: #fff;
+                                                        }
+                                                        
+                                                        .card.card_footer_box .card-footer {
+                                                            background-color: transparent;
+                                                        }
+                                                        
+                                                        .card.card_footer_box .card-footer p {
+                                                            color: gray;
+                                                        }
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- source code -->
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Card Left Align</label>
+                                        <code class="class-name">.text-start</code>
+                                    </div>
+
+                                    <div class="card sub_title_box border-0 shadow-sm">
+                                        <div class="card-body">
+                                            <h6 class="card-title mb-1 text-capitalize">Card title</h6>
+                                            <p class="card-text mt-2">Some quick example text to build on
+                                                the card title
+                                                and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Card Center Align</label>
+                                        <code class="class-name">.text-center</code>
+                                    </div>
+
+                                    <div class="card text-center sub_title_box border-0 shadow-sm">
+                                        <div class="card-body">
+                                            <h6 class="card-title mb-1 text-capitalize">Card title</h6>
+                                            <p class="card-text mt-2">Some quick example text to build on
+                                                the card title
+                                                and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Card Right Align</label>
+                                        <code class="class-name">.text-end</code>
+                                    </div>
+
+                                    <div class="card text-end sub_title_box border-0 shadow-sm">
+                                        <div class="card-body">
+                                            <h6 class="card-title mb-1">Card Title</h6>
+                                            <p class="card-text mt-2">Some quick example text to build on
+                                                the card title
+                                                and
+                                                make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Contact Card</label>
+                                        <button class="showCode" data-target="instance4">
+                                            <i class="fa-solid fa-code"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- preview -->
+                                    <div class="card alert mb-0 p-0 card_contact_box border-0 shadow-sm"
+                                        id="output_instance4">
+                                        <div class="card-header d-flex align-items-center justify-content-between py-3">
+                                            <h6>Contact Card</h6>
+                                            <div class="card-tools">
+                                                <button data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                                    aria-expanded="false" aria-controls="collapseExample"
+                                                    class="card-toggle">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </button>
+                                                <button data-bs-dismiss="alert" aria-label="Close">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="collapse show" id="collapseExample">
+                                            <div class="card-body text-center py-4">
+                                                <div class="contact-card-box">
+                                                    <img src="../../assets/img/user2.jpg" alt="user" />
+                                                    <h6 class="mt-2">Laura Norda</h6>
+                                                    <p class="card-text mt-1">Lorem ipsum dolor, sit amet consectetur
+                                                        adipisicing elit Eligendi eius illum.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer py-3">
+                                                <div
+                                                    class="d-flex align-items-center gap-2 justify-content-center card-social-links">
+                                                    <button>
+                                                        <i class="fa-brands fa-google"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-facebook-f"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- preview -->
+
+                                    <!-- source code -->
+                                    <div id="source_code_instance4" class="code-main">
+
+                                        <ul class="nav nav-pills mb-1 justify-content-end" id="pills-tab"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="Card_contact_html"
+                                                    data-bs-toggle="pill" data-bs-target="#pills-Card_contact_html"
+                                                    type="button" role="tab" aria-controls="pills-Card_contact_html"
+                                                    aria-selected="true">HTML</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="card_contact_css" data-bs-toggle="pill"
+                                                    data-bs-target="#pills-card_contact_css" type="button" role="tab"
+                                                    aria-controls="pills-card_contact_css"
+                                                    aria-selected="false">CSS</button>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content" id="pills-tabContent">
+
+                                            <div class="tab-pane fade show active" id="pills-Card_contact_html"
+                                                role="tabpanel" aria-labelledby="Card_contact_html" tabindex="0">
+                                                <pre class="language-html">
+                                                    <code>
+                                                        &lt;div  class="card alert mb-0 p-0 card_contact_box border-0 shadow-sm"&gt;
+                                                            &lt;div class="card-header d-flex align-items-center justify-content-between py-3"&gt;
+                                                                &lt;h6&gt;Contact Card&lt;h6&gt;
+                                                                &lt;div class="card-tools"&gt;
+                                                                    &lt;button data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="card-toggle"&gt;
+                                                                        &lt;i class="fa-solid fa-angle-down"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                    &lt;button data-bs-dismiss="alert" aria-label="Close"&gt;
+                                                                        &lt;i class="fa-solid fa-xmark"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                            &lt;div class="collapse show" id="collapseExample"&gt;
+                                                                &lt;div class="card-body text-center py-4"&gt;
+                                                                    &lt;div class="contact-card-box"&gt;
+                                                                        &lt;img src="..." alt="user" /&gt;
+                                                                        &lt;h6 class="mt-2"&gt;Laura Norda&lt;h6&gt;
+                                                                        &lt;p class="card-text mt-1"&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit Eligendi eius illum.&lt;p&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                                &lt;div class="card-footer py-3"&gt;
+                                                                    &lt;div class="d-flex align-items-center gap-2 justify-content-center card-social-links"&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-google"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-facebook-f"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-twitter"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="pills-card_contact_css" role="tabpanel"
+                                                aria-labelledby="card_contact_css" tabindex="0">
+                                                <pre class="language-css">
+                                                    <code>
+                                                        .card.card_contact_box .card-footer {
+                                                            background-color: transparent;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-header {
+                                                            background-color: #0093ED;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-header h6 {
+                                                            color: #fff;
+                                                        }
+                                                        
+                                                        .card.card_contact_box p {
+                                                            font-size: 14px;
+                                                            color: #282f53b7;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button {
+                                                            background-color: #0092ed0a;
+                                                            border: 1px solid #0093ED;
+                                                            color: #0093ED;
+                                                            width: 35px;
+                                                            height: 35px;
+                                                            display: flex;
+                                                            font-size: 14px;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            border-radius: 50%;
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button:hover {
+                                                            color: #fff;
+                                                            background-color: #0093ED;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .contact-card-box img {
+                                                            width: 75px;
+                                                            height: 75px;
+                                                            border-radius: 50%;
+                                                            object-fit: cover;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle {
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle.collapsed {
+                                                            transform: rotate(180deg);
+                                                        }
+
+                                                        .card-tools {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            gap: 15px;
+                                                        }
+                                                        
+                                                        .card-tools button {
+                                                            background-color: transparent;
+                                                            border: none;
+                                                            padding: 0;
+                                                            outline: none;
+                                                            color: #ffffff;
+                                                            display: flex;
+                                                        }
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- source code -->
+
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Contact Card</label>
+                                        <button class="showCode" data-target="instance5">
+                                            <i class="fa-solid fa-code"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- preview -->
+                                    <div class="card alert p-0 mb-0 card_contact_box card_contact_danger_box border-0 shadow-sm"
+                                        id="output_instance5">
+                                        <div
+                                            class="card-header bg-danger d-flex align-items-center justify-content-between py-3">
+                                            <h6>Contact Card</h6>
+                                            <div class="card-tools">
+                                                <button data-bs-toggle="collapse" href="#contact_danger_card"
+                                                    role="button" aria-expanded="false"
+                                                    aria-controls="contact_danger_card" class="card-toggle">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </button>
+                                                <button data-bs-dismiss="alert" aria-label="Close">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="collapse show" id="contact_danger_card">
+                                            <div class="card-body text-center py-4">
+                                                <div class="contact-card-box">
+                                                    <img src="../../assets/img/user2.jpg" alt="user" />
+                                                    <h6 class="mt-2">Laura Norda</h6>
+                                                    <p class="card-text mt-1">Lorem ipsum dolor, sit amet consectetur
+                                                        adipisicing elit Eligendi eius illum.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer py-3">
+                                                <div
+                                                    class="d-flex align-items-center gap-2 justify-content-center card-social-links">
+                                                    <button>
+                                                        <i class="fa-brands fa-google"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-facebook-f"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- preview -->
+
+                                    <!-- source code -->
+                                    <div id="source_code_instance5" class="code-main">
+
+                                        <ul class="nav nav-pills mb-1 justify-content-end" id="pills-tab"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="Card_contact_danger_html"
+                                                    data-bs-toggle="pill"
+                                                    data-bs-target="#pills-Card_contact_danger_html" type="button"
+                                                    role="tab" aria-controls="pills-Card_contact_danger_html"
+                                                    aria-selected="true">HTML</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="card_contact_danger_css"
+                                                    data-bs-toggle="pill"
+                                                    data-bs-target="#pills-card_contact_danger_css" type="button"
+                                                    role="tab" aria-controls="pills-card_contact_danger_css"
+                                                    aria-selected="false">CSS</button>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content" id="pills-tabContent">
+
+                                            <div class="tab-pane fade show active" id="pills-Card_contact_danger_html"
+                                                role="tabpanel" aria-labelledby="Card_contact_danger_html" tabindex="0">
+                                                <pre class="language-html">
+                                                    <code>
+                                                        &lt;div  class="card alert mb-0 p-0 card_contact_box border-0 shadow-sm"&gt;
+                                                            &lt;div class="card-header bg-danger d-flex align-items-center justify-content-between py-3"&gt;
+                                                                &lt;h6&gt;Contact Card&lt;h6&gt;
+                                                                &lt;div class="card-tools"&gt;
+                                                                    &lt;button data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="card-toggle"&gt;
+                                                                        &lt;i class="fa-solid fa-angle-down"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                    &lt;button data-bs-dismiss="alert" aria-label="Close"&gt;
+                                                                        &lt;i class="fa-solid fa-xmark"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                            &lt;div class="collapse show" id="collapseExample"&gt;
+                                                                &lt;div class="card-body text-center py-4"&gt;
+                                                                    &lt;div class="contact-card-box"&gt;
+                                                                        &lt;img src="..." alt="user" /&gt;
+                                                                        &lt;h6 class="mt-2"&gt;Laura Norda&lt;h6&gt;
+                                                                        &lt;p class="card-text mt-1"&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit Eligendi eius illum.&lt;p&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                                &lt;div class="card-footer py-3"&gt;
+                                                                    &lt;div class="d-flex align-items-center gap-2 justify-content-center card-social-links"&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-google"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-facebook-f"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-twitter"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="pills-card_contact_danger_css"
+                                                role="tabpanel" aria-labelledby="card_contact_danger_css" tabindex="0">
+                                                <pre class="language-css">
+                                                    <code>
+                                                        .card.card_contact_box .card-footer {
+                                                            background-color: transparent;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-header h6 {
+                                                            color: #fff;
+                                                        }
+                                                        
+                                                        .card.card_contact_box p {
+                                                            font-size: 14px;
+                                                            color: #282f53b7;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button {
+                                                            background-color: #dc354610;
+                                                            border: 1px solid #dc3545;
+                                                            color: #dc3545;
+                                                            width: 35px;
+                                                            height: 35px;
+                                                            display: flex;
+                                                            font-size: 14px;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            border-radius: 50%;
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button:hover {
+                                                            color: #fff;
+                                                            background-color: #dc3545;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .contact-card-box img {
+                                                            width: 75px;
+                                                            height: 75px;
+                                                            border-radius: 50%;
+                                                            object-fit: cover;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle {
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle.collapsed {
+                                                            transform: rotate(180deg);
+                                                        }
+
+                                                        .card-tools {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            gap: 15px;
+                                                        }
+                                                        
+                                                        .card-tools button {
+                                                            background-color: transparent;
+                                                            border: none;
+                                                            padding: 0;
+                                                            outline: none;
+                                                            color: #ffffff;
+                                                            display: flex;
+                                                        }
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- source code -->
+
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Contact Card</label>
+                                        <button class="showCode" data-target="instance6">
+                                            <i class="fa-solid fa-code"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- preview -->
+                                    <div class="card alert p-0 mb-0 card_contact_box card_contact_info_box border-0 shadow-sm"
+                                        id="output_instance6">
+                                        <div
+                                            class="card-header bg-info d-flex align-items-center justify-content-between py-3">
+                                            <h6>Contact Card</h6>
+                                            <div class="card-tools">
+                                                <button data-bs-toggle="collapse" href="#contact_info_card"
+                                                    role="button" aria-expanded="false"
+                                                    aria-controls="contact_info_card" class="card-toggle">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </button>
+                                                <button data-bs-dismiss="alert" aria-label="Close">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="collapse show" id="contact_info_card">
+                                            <div class="card-body text-center py-4">
+                                                <div class="contact-card-box">
+                                                    <img src="../../assets/img/user2.jpg" alt="user" />
+                                                    <h6 class="mt-2">Laura Norda</h6>
+                                                    <p class="card-text mt-1">Lorem ipsum dolor, sit amet consectetur
+                                                        adipisicing elit Eligendi eius illum.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer py-3">
+                                                <div
+                                                    class="d-flex align-items-center gap-2 justify-content-center card-social-links">
+                                                    <button>
+                                                        <i class="fa-brands fa-google"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-facebook-f"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- preview -->
+
+                                    <!-- source code -->
+                                    <div id="source_code_instance6" class="code-main">
+
+                                        <ul class="nav nav-pills mb-1 justify-content-end" id="pills-tab"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="Card_contact_info_html"
+                                                    data-bs-toggle="pill" data-bs-target="#pills-Card_contact_info_html"
+                                                    type="button" role="tab"
+                                                    aria-controls="pills-Card_contact_info_html"
+                                                    aria-selected="true">HTML</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="card_contact_info_css"
+                                                    data-bs-toggle="pill" data-bs-target="#pills-card_contact_info_css"
+                                                    type="button" role="tab" aria-controls="pills-card_contact_info_css"
+                                                    aria-selected="false">CSS</button>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content" id="pills-tabContent">
+
+                                            <div class="tab-pane fade show active" id="pills-Card_contact_info_html"
+                                                role="tabpanel" aria-labelledby="Card_contact_info_html" tabindex="0">
+                                                <pre class="language-html">
+                                                    <code>
+                                                        &lt;div  class="card alert mb-0 p-0 card_contact_box border-0 shadow-sm"&gt;
+                                                            &lt;div class="card-header bg-info d-flex align-items-center justify-content-between py-3"&gt;
+                                                                &lt;h6&gt;Contact Card&lt;h6&gt;
+                                                                &lt;div class="card-tools"&gt;
+                                                                    &lt;button data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="card-toggle"&gt;
+                                                                        &lt;i class="fa-solid fa-angle-down"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                    &lt;button data-bs-dismiss="alert" aria-label="Close"&gt;
+                                                                        &lt;i class="fa-solid fa-xmark"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                            &lt;div class="collapse show" id="collapseExample"&gt;
+                                                                &lt;div class="card-body text-center py-4"&gt;
+                                                                    &lt;div class="contact-card-box"&gt;
+                                                                        &lt;img src="..." alt="user" /&gt;
+                                                                        &lt;h6 class="mt-2"&gt;Laura Norda&lt;h6&gt;
+                                                                        &lt;p class="card-text mt-1"&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit Eligendi eius illum.&lt;p&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                                &lt;div class="card-footer py-3"&gt;
+                                                                    &lt;div class="d-flex align-items-center gap-2 justify-content-center card-social-links"&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-google"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-facebook-f"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-twitter"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="pills-card_contact_info_css" role="tabpanel"
+                                                aria-labelledby="card_contact_info_css" tabindex="0">
+                                                <pre class="language-css">
+                                                    <code>
+                                                        .card.card_contact_box .card-footer {
+                                                            background-color: transparent;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-header h6 {
+                                                            color: #fff;
+                                                        }
+                                                        
+                                                        .card.card_contact_box p {
+                                                            font-size: 14px;
+                                                            color: #282f53b7;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button {
+                                                            background-color: #0dcaf00d;
+                                                            border: 1px solid #0dcaf0;
+                                                            color: #0dcaf0;
+                                                            width: 35px;
+                                                            height: 35px;
+                                                            display: flex;
+                                                            font-size: 14px;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            border-radius: 50%;
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button:hover {
+                                                            color: #fff;
+                                                            background-color: #0dcaf0;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .contact-card-box img {
+                                                            width: 75px;
+                                                            height: 75px;
+                                                            border-radius: 50%;
+                                                            object-fit: cover;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle {
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle.collapsed {
+                                                            transform: rotate(180deg);
+                                                        }
+
+                                                        .card-tools {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            gap: 15px;
+                                                        }
+                                                        
+                                                        .card-tools button {
+                                                            background-color: transparent;
+                                                            border: none;
+                                                            padding: 0;
+                                                            outline: none;
+                                                            color: #ffffff;
+                                                            display: flex;
+                                                        }
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- source code -->
+
+                                </div>
+
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mt-4">
+                                    <div class="show-code d-flex align-items-center justify-content-between mb-2">
+                                        <label>Contact Card</label>
+                                        <button class="showCode" data-target="instance7">
+                                            <i class="fa-solid fa-code"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- preview -->
+                                    <div class="card alert p-0 mb-0 card_contact_box card_contact_success_box border-0 shadow-sm"
+                                        id="output_instance7">
+                                        <div
+                                            class="card-header bg-success d-flex align-items-center justify-content-between py-3">
+                                            <h6>Contact Card</h6>
+                                            <div class="card-tools">
+                                                <button data-bs-toggle="collapse" href="#contact_success_card"
+                                                    role="button" aria-expanded="false"
+                                                    aria-controls="contact_success_card" class="card-toggle">
+                                                    <i class="fa-solid fa-angle-down"></i>
+                                                </button>
+                                                <button data-bs-dismiss="alert" aria-label="Close">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="collapse show" id="contact_success_card">
+                                            <div class="card-body text-center py-4">
+                                                <div class="contact-card-box">
+                                                    <img src="../../assets/img/user2.jpg" alt="user" />
+                                                    <h6 class="mt-2">Laura Norda</h6>
+                                                    <p class="card-text mt-1">Lorem ipsum dolor, sit amet consectetur
+                                                        adipisicing elit Eligendi eius illum.</p>
+                                                </div>
+                                            </div>
+                                            <div class="card-footer py-3">
+                                                <div
+                                                    class="d-flex align-items-center gap-2 justify-content-center card-social-links">
+                                                    <button>
+                                                        <i class="fa-brands fa-google"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-facebook-f"></i>
+                                                    </button>
+                                                    <button>
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- preview -->
+
+                                    <!-- source code -->
+                                    <div id="source_code_instance7" class="code-main">
+
+                                        <ul class="nav nav-pills mb-1 justify-content-end" id="pills-tab"
+                                            role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="Card_contact_success_html"
+                                                    data-bs-toggle="pill"
+                                                    data-bs-target="#pills-Card_contact_success_html" type="button"
+                                                    role="tab" aria-controls="pills-Card_contact_success_html"
+                                                    aria-selected="true">HTML</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="card_contact_success_css"
+                                                    data-bs-toggle="pill"
+                                                    data-bs-target="#pills-card_contact_success_css" type="button"
+                                                    role="tab" aria-controls="pills-card_contact_success_css"
+                                                    aria-selected="false">CSS</button>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content" id="pills-tabContent">
+
+                                            <div class="tab-pane fade show active" id="pills-Card_contact_success_html"
+                                                role="tabpanel" aria-labelledby="Card_contact_success_html"
+                                                tabindex="0">
+                                                <pre class="language-html">
+                                                    <code>
+                                                        &lt;div  class="card alert mb-0 p-0 card_contact_box border-0 shadow-sm"&gt;
+                                                            &lt;div class="card-header bg-success d-flex align-items-center justify-content-between py-3"&gt;
+                                                                &lt;h6&gt;Contact Card&lt;h6&gt;
+                                                                &lt;div class="card-tools"&gt;
+                                                                    &lt;button data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" class="card-toggle"&gt;
+                                                                        &lt;i class="fa-solid fa-angle-down"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                    &lt;button data-bs-dismiss="alert" aria-label="Close"&gt;
+                                                                        &lt;i class="fa-solid fa-xmark"&gt;&lt;/i&gt;
+                                                                    &lt;/button&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                            &lt;div class="collapse show" id="collapseExample"&gt;
+                                                                &lt;div class="card-body text-center py-4"&gt;
+                                                                    &lt;div class="contact-card-box"&gt;
+                                                                        &lt;img src="..." alt="user" /&gt;
+                                                                        &lt;h6 class="mt-2"&gt;Laura Norda&lt;h6&gt;
+                                                                        &lt;p class="card-text mt-1"&gt;Lorem ipsum dolor, sit amet consectetur adipisicing elit Eligendi eius illum.&lt;p&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                                &lt;div class="card-footer py-3"&gt;
+                                                                    &lt;div class="d-flex align-items-center gap-2 justify-content-center card-social-links"&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-google"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-facebook-f"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                        &lt;button&gt;
+                                                                            &lt;i class="fa-brands fa-twitter"&gt;&lt;/i&gt;
+                                                                        &lt;/button&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                            <div class="tab-pane fade" id="pills-card_contact_success_css"
+                                                role="tabpanel" aria-labelledby="card_contact_success_css" tabindex="0">
+                                                <pre class="language-css">
+                                                    <code>
+                                                        .card.card_contact_box .card-footer {
+                                                            background-color: transparent;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-header h6 {
+                                                            color: #fff;
+                                                        }
+                                                        
+                                                        .card.card_contact_box p {
+                                                            font-size: 14px;
+                                                            color: #282f53b7;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button {
+                                                            background-color: #1987540d;
+                                                            border: 1px solid #198754;
+                                                            color: #198754;
+                                                            width: 35px;
+                                                            height: 35px;
+                                                            display: flex;
+                                                            font-size: 14px;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            border-radius: 50%;
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-social-links button:hover {
+                                                            color: #fff;
+                                                            background-color: #198754;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .contact-card-box img {
+                                                            width: 75px;
+                                                            height: 75px;
+                                                            border-radius: 50%;
+                                                            object-fit: cover;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle {
+                                                            transition: 0.3s;
+                                                        }
+                                                        
+                                                        .card.card_contact_box .card-tools .card-toggle.collapsed {
+                                                            transform: rotate(180deg);
+                                                        }
+
+                                                        .card-tools {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            gap: 15px;
+                                                        }
+                                                        
+                                                        .card-tools button {
+                                                            background-color: transparent;
+                                                            border: none;
+                                                            padding: 0;
+                                                            outline: none;
+                                                            color: #ffffff;
+                                                            display: flex;
+                                                        }
+                                                    </code>
+                                                </pre>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <!-- source code -->
+
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <div class="offcanvas offcanvas-end notifications-canvas" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h6 class="offcanvas-title d-flex align-items-center gap-3" id="offcanvasRightLabel">
+                <i class="fa-regular fa-bell"></i>
+                Notifications
+            </h6>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0 pt-0">
+            <div class="tabs-main">
+
+                <ul class="nav nav-pills mb-3 pt-3 justify-content-around" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active d-flex align-items-center gap-2" id="pills-home-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                            aria-controls="pills-home" aria-selected="true">
+                            <i class="bi bi-gear"></i>
+                            Feeds
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link d-flex align-items-center gap-2" id="pills-profile-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">
+                            <i class="bi bi-chat"></i>
+                            chat
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link d-flex align-items-center gap-2" id="pills-contact-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">
+                            <i class="bi bi-calendar-range"></i>
+                            Timeline
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content px-2" id="pills-tabContent">
+
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="">
+                            <h5 class="offcanvas-title">Feeds</h5>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-4 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-purple"><i class="bi bi-person"></i></span>
+                                    <p>New user registered</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-blue"><i class="bi bi-cart2"></i></span>
+                                    <p>New order delivered</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-red"><i class="bi bi-bell"></i></span>
+                                    <p>You have pending tasks</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-yellow"><i class="bi bi-git"></i></span>
+                                    <p>New version arrived</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-pink"><i class="bi bi-database"></i></span>
+                                    <p>Server #1 overloaded</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-blue-dark"><i
+                                            class="bi bi-check-lg"></i></span>
+                                    <p>New project launched</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mt-5">
+                            <h5 class="offcanvas-title">Settings</h5>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-4 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-purple"><i class="bi bi-gear"></i></span>
+                                    <p>General Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-blue"><i class="bi bi-map"></i></span>
+                                    <p>Map Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-red"><i class="bi bi-headphones"></i></span>
+                                    <p>Support Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-pink"><i
+                                            class="bi bi-credit-card"></i></span>
+                                    <p>Payment Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-yellow"><i class="bi bi-git"></i></span>
+                                    <p>Notification Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <h5 class="offcanvas-title">Today</h5>
+                        <div class="user-box d-flex align-items-center gap-3 mt-4">
+                            <div>
+                                <img src="../../assets/img/user2.jpg" />
+                            </div>
+                            <div class="user-box-text">
+                                <p>Addie Minstra</p>
+                                <span>Hey! there I' am available</span>
+                            </div>
+                        </div>
+                        <div class="user-box d-flex align-items-center gap-3 mt-3">
+                            <div>
+                                <img src="../../assets/img/user.jpg" />
+                            </div>
+                            <div class="user-box-text">
+                                <p>Claude Strophobia</p>
+                                <span>Hi we can explain our new project new project </span>
+                            </div>
+                        </div>
+                        <div class="user-box d-flex align-items-center gap-3 mt-3">
+                            <div>
+                                <img src="../../assets/img/user3.jpg" />
+                            </div>
+                            <div class="user-box-text">
+                                <p>Rose Bush</p>
+                                <span>Okay...l will be wafting for you</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h5 class="offcanvas-title">Yesterday</h5>
+
+                            <div class="user-box d-flex align-items-center gap-3 mt-3">
+                                <div>
+                                    <img src="../../assets/img/user.jpg" />
+                                </div>
+                                <div class="user-box-text">
+                                    <p>Claude Strophobia</p>
+                                    <span>Hi we can explain our new project new project </span>
+                                </div>
+                            </div>
+                            <div class="user-box d-flex align-items-center gap-3 mt-3">
+                                <div>
+                                    <img src="../../assets/img/user3.jpg" />
+                                </div>
+                                <div class="user-box-text">
+                                    <p>Rose Bush</p>
+                                    <span>Okay...l will be wafting for you</span>
+                                </div>
+                            </div>
+                            <div class="user-box d-flex align-items-center gap-3 mt-4">
+                                <div>
+                                    <img src="../../assets/img/user2.jpg" />
+                                </div>
+                                <div class="user-box-text">
+                                    <p>Addie Minstra</p>
+                                    <span>Hey! there I' am available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+
+                        <div class="timeline-main position-relative">
+                            <div class="timeline-box ps-5 pe-1 position-relative">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- chart -->
+
+    <!-- code -->
+    <script src="../../assets/js/prism.js"></script>
+    <!-- code -->
+
+
+    <script src="../../assets/js/all.min.js"></script>
+
+    <script src="../../assets/js/index.js"></script>
+
+    <!-- js -->
+
+</body>
+
+</html>

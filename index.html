@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Css links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <!-- Css links -->
+
+</head>
+
+<body id="body">
+
+    <main>
+        <div class="overlay d-none" style="z-index: 999;" id="overlay"></div>
+        <div class="layout light_theme ">
+
+            <div class="sidebar" id="sidebar">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./assets/img/logo.svg" alt="logo" width="200px" />
+                    </a>
+                </div>
+                <div class="menu px-4 mb-4">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                        <div class="main mt-3">
+                            <label class="menu-title">MAIN</label>
+                            <a href="./index.html" class="active">
+                                <i class="bi bi-house-door"></i>
+                                Dashboard
+                            </a>
+                        </div>
+
+                        <div class="main mt-4 pt-2">
+
+                            <label class="menu-title">UI KIT</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <i class="bi bi-terminal"></i>
+                                        Apps
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="./page/apps/card.html">Cards design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Default calendar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Full calendar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">chat</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Notifications</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sweet alerts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Range slider</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Content Scroll bar</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Loaders</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Counters</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Rating</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Timeline</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Treeview</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Footers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">User List</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Search</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Crypto-currencies</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Widgets</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <i class="bi bi-box-seam"></i>
+                                        Bootstrap
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Alerts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Buttons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Colors</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Avatar Square</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Avatar Radius</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Avatar Rounded</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Dropdowns</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">List Group</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tags</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Pagination</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Navigation</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Typography</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Breadcrumbs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Badges / Pills</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">panels</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Thumbnails</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Offcanvas</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">toast</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Scrollspy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Media Object</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Accordions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tabs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Modal</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tooltip and popover</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Progress</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">carousels</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ribbons</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="main mt-3">
+                            <a href="./index.html">
+                                <i class="bi bi-lightning-charge"></i>
+                                Landing Page
+                                <span class="badge text-bg-success ms-auto">New</span>
+                            </a>
+                        </div>
+
+                        <div class="main mt-4 pt-3">
+                            <label class="menu-title">PRE-BUILD PAGES</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTree" aria-expanded="false"
+                                        aria-controls="flush-collapseTree">
+                                        <i class="bi bi-layers"></i>
+                                        Pages
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Edit Profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Notifications List</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mail-compose</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mail-Inbox</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gallery</a>
+                                            </li>
+
+                                            <div class="accordion accordion-flush" id="accordionFlushExampleSub">
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseSubOne"
+                                                                aria-expanded="false"
+                                                                aria-controls="flush-collapseSubOne">
+                                                                Forms
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseSubOne"
+                                                            class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#accordionFlushExampleSub">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">Form Elements</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Layouts</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">corm Advanced</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Editor</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Wizard</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Validation</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Form Input Spinners</a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseSubTwo"
+                                                                aria-expanded="false"
+                                                                aria-controls="flush-collapseSubTwo">
+                                                                Tables
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseSubTwo"
+                                                            class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#accordionFlushExampleSub">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">Default table</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Data Tables</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Edit Tables</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Extension Tables</a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#flush-collapseSubTree"
+                                                                aria-expanded="false"
+                                                                aria-controls="flush-collapseSubTree">
+                                                                Extension
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-collapseSubTree"
+                                                            class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#accordionFlushExampleSub">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">About Company</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Services</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">FAQS</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Terms</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Invoice</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Pricing Tables</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Settings</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Blog</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Blog Details</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Blog Post</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Empty page</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">Under Construction</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </div>
+
+                                            <li>
+                                                <a href="#">Switcher</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        <i class="bi bi-cart2"></i>
+                                        E-commerce
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Shop</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">product Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shopping Cart</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Add Product</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Wishlist</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Checkout</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed arrow_none" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                        aria-expanded="false" aria-controls="flush-collapseFive">
+                                        <i class="bi bi-folder"></i>
+                                        File Manager
+                                        <span class="badge text-bg-primary ms-auto ">4</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">File Manager</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">File Manager List</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">File Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">File Attachments</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main mt-4 pt-2">
+
+                            <label class="menu-title">MISC PAGES</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                        aria-controls="flush-collapseSix">
+                                        <i class="bi bi-people"></i>
+                                        Authentication
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Login</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Register</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Forgot password</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Lock screen</a>
+                                            </li>
+
+                                            <div class="accordion accordion-flush" id="Errorpages">
+
+                                                <li>
+                                                    <div class="accordion-item">
+                                                        <h2 class="accordion-header" id="flush-headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#flush-Error"
+                                                                aria-expanded="false" aria-controls="flush-Error">
+                                                                Error Pages
+                                                            </button>
+                                                        </h2>
+                                                        <div id="flush-Error" class="accordion-collapse collapse"
+                                                            aria-labelledby="flush-headingOne"
+                                                            data-bs-parent="#Errorpages">
+                                                            <div class="accordion-body">
+                                                                <ul class="submenu ps-3">
+                                                                    <li>
+                                                                        <a href="#">400</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">401</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">403</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">404</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">500</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">503</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </div>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="main mt-4 pt-3">
+                            <label class="menu-title">GENERAL</label>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                        aria-controls="flush-collapseSeven">
+                                        <i class="bi bi-map"></i>
+                                        Maps
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Leaflet Maps</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mapel Maps</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">vector Maps</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed arrow_none" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                                        aria-expanded="false" aria-controls="flush-collapseEight">
+                                        <i class="bi bi-bar-chart"></i>
+                                        Charts
+                                        <span class="badge text-bg-info ms-auto">9</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Chart Js</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Flot Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">ECharts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Morris Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">NVd3 Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Bar Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Line Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Donut Charts</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">C3 Pie charts</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item mt-4">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-nine" aria-expanded="false" aria-controls="flush-nine">
+                                        <i class="bi bi-wind"></i>
+                                        Icons
+                                    </button>
+                                </h2>
+                                <div id="flush-nine" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <ul class="submenu">
+                                            <li>
+                                                <a href="#">Font Awesome</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Material Design Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Simple Line Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Feather Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ionic Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Flag Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">pe7 Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Themify Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Typicons Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Weather Icons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bootstrap Icons</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main-content" id="main_content">
+
+                <header class="header d-flex align-items-center justify-content-between" id="header">
+                    <div class="d-flex align-items-center gap-4">
+                        <button class="toggle-sidebar" id="toggleButton">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </button>
+                        <input type="text" placeholder="Search for results..." />
+                    </div>
+
+                    <div class="d-flex align-items-center gap-4 header-tools">
+
+                        <button onclick="openFullscreen();">
+                            <i class="fa-solid fa-compress"></i>
+                        </button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu notify-body p-0">
+                                <h6>notifications</h6>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-purple">
+                                            <i class="fa-regular fa-envelope"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>New Application received </p>
+                                            <span> 3 days ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-blue">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>Project has been approved </p>
+                                            <span> 2 hours agn</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-green">
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>Your Product Delivered</p>
+                                            <span>30 min ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 p-3">
+                                        <div class="intify-icon bg-pink">
+                                            <i class="fa-solid fa-user-plus"></i>
+                                        </div>
+                                        <div class="notify-text">
+                                            <p>Friend Requests</p>
+                                            <span>1 day ago</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight">
+                            <i class="fa-solid fa-bars-staggered"></i>
+                        </button>
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="./assets/img/user2.jpg" alt="user" class="profile" />
+                            </button>
+                            <ul class="dropdown-menu p-0 profile-menu">
+                                <div class="notify-text text-center p-3">
+                                    <p>Percy Kewshun</p>
+                                    <span>Senior Admin</span>
+                                </div>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-person"></i>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-envelope"></i>
+                                        Inbox
+                                        <span class="badge text-bg-danger ms-auto">10</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-shield-lock"></i>
+                                        Lock screen
+                                    </a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider my-0">
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex align-items-center gap-3 px-3 py-2">
+                                        <i class="bi bi-exclamation-octagon"></i>
+                                        Sign out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </header>
+
+                <div class="content py-4 px-3 px-sm-4">
+
+                    <div class="dashboard">
+                        <h5>Dashboard</h5>
+
+                        <section class="overview">
+                            <div class="row mt-4 ">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <div class="card  position-relative overflow-hidden">
+                                        <!-- <img src="./assets/img/dashboard/user-bg.png" width="120px" class="user-bg" /> -->
+                                        <div class="card-body">
+                                            <span>Total User</span>
+                                            <h4 class="my-1">44,278</h4>
+                                            <p>
+                                                <b class="text-primary">
+                                                    <i class="bi bi-arrow-up-circle"></i>
+                                                    5%
+                                                </b>
+                                                Last week
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt-3 mt-sm-0">
+                                    <div class="card position-relative overflow-hidden">
+                                        <!-- <img src="./assets/img/dashboard/user-bg.png" width="120px" class="user-bg" /> -->
+                                        <div class="card-body">
+                                            <span>Total Profit</span>
+                                            <h4 class="my-1">67,987</h4>
+                                            <p>
+                                                <b class="text-danger">
+                                                    <i class="bi bi-arrow-down-circle"></i>
+                                                    0.75%
+                                                </b>
+                                                Last 6 days
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt-3 mt-lg-0">
+                                    <div class="card position-relative overflow-hidden">
+                                        <!-- <img src="./assets/img/dashboard/user-bg.png" width="120px" class="user-bg" /> -->
+                                        <div class="card-body">
+                                            <span>Total Expenses</span>
+                                            <h4 class="my-1">$76,965</h4>
+                                            <p>
+                                                <b class="text-primary">
+                                                    <i class="bi bi-arrow-up-circle"></i>
+                                                    0.9%
+                                                </b>
+                                                Last 9 days
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 mt-3 mt-lg-0">
+                                    <div class="card position-relative overflow-hidden">
+                                        <!-- <img src="./assets/img/dashboard/user-bg.png" width="120px" class="user-bg" /> -->
+                                        <div class="card-body">
+                                            <span>Total Cost</span>
+                                            <h4 class="my-1">$59,765</h4>
+                                            <p>
+                                                <b class="text-primary">
+                                                    <i class="bi bi-arrow-up-circle"></i>
+                                                    0.6%
+                                                </b>
+                                                Last year
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="mt-4">
+                            <div class="row">
+
+                                <div class="col-lg-8 col-md-6 col-sm-12">
+                                    <div class="card border-0 shadow-sm data-table">
+                                        <div class="card-title-bar p-3 border-bottom">
+                                            <h5>Sales Analytics</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <canvas id="myChart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6 col-sm-12 mt-3 mt-md-0">
+
+                                    <div class="card border-0 shadow-sm">
+                                        <div class="card-title-bar p-3 border-bottom">
+                                            <h5>Daily Activity</h5>
+                                        </div>
+                                        <div class="py-4 px-3" style="max-height: 300px; overflow: auto;">
+                                            <div class="timeline-main line-hight position-relative">
+                                                <div class="timeline-box ps-5 pe-1 position-relative">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                                <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                                <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                                <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                                <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                                <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                                <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                                <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                                    <div
+                                                        class="d-flex align-items-center gap-2 justify-content-between">
+                                                        <label>Task Finished <span>09 July 2021</span></label>
+                                                        <div class="d-flex align-items-center gap-2">
+                                                            <button><i class="bi bi-pencil-square"></i></button>
+                                                            <button><i class="bi bi-trash"></i></button>
+                                                        </div>
+                                                    </div>
+                                                    <p class="ms-0">Adam Berry finished task on <span
+                                                            class="text-theme">Project
+                                                            Management</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card border-0 shadow-sm mt-4 Browser-usage">
+                                        <div class="card-title-bar p-3 border-bottom">
+                                            <h5>Browser Usage</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="d-flex align-items-center browser-box gap-4">
+                                                <div class="">
+                                                    <img src="./assets/img/dashboard/chrome.svg" alt="chrome"
+                                                        width="25px" />
+                                                </div>
+                                                <div class="w-100">
+                                                    <div
+                                                        class="Browser-title mb-1 d-flex align-items-center justify-content-between">
+                                                        <h6>Chrome</h6>
+                                                        <p>35,502 <span class="text-info">(12.75%)</span></p>
+                                                    </div>
+                                                    <div class="progress w-100 ">
+                                                        <div class="progress-bar bg-info" role="progressbar"
+                                                            aria-label="info example" style="width: 25%"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center browser-box gap-4 mt-4">
+                                                <div class="">
+                                                    <img src="./assets/img/dashboard/safari.svg" alt="chrome"
+                                                        width="25px" />
+                                                </div>
+                                                <div class="w-100">
+                                                    <div
+                                                        class="Browser-title mb-1 d-flex align-items-center justify-content-between">
+                                                        <h6>Safari</h6>
+                                                        <p>10,259 <span class="text-danger">(11.05%)</span></p>
+                                                    </div>
+                                                    <div class="progress w-100 ">
+                                                        <div class="progress-bar bg-danger" role="progressbar"
+                                                            aria-label="danger example" style="width: 75%"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center browser-box gap-4 mt-4">
+                                                <div class="">
+                                                    <img src="./assets/img/dashboard/firefox.svg" alt="chrome"
+                                                        width="25px" />
+                                                </div>
+                                                <div class="w-100">
+                                                    <div
+                                                        class="Browser-title mb-1 d-flex align-items-center justify-content-between">
+                                                        <h6>Firefox</h6>
+                                                        <p>9,456 <span class="text-success">(15.63%)</span></p>
+                                                    </div>
+                                                    <div class="progress w-100 ">
+                                                        <div class="progress-bar bg-success" role="progressbar"
+                                                            aria-label="success example" style="width: 48%"
+                                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="mt-4">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card border-0 shadow-sm h-100 data-table">
+                                        <div class="card-title-bar p-3 border-bottom">
+                                            <h5>Product Sales</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="table-responsive">
+                                                <table class="table mb-0">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">TRACKING ID</th>
+                                                            <th scope="col">PRODUCT</th>
+                                                            <th scope="col">CUSTOMER</th>
+                                                            <th scope="col">DATE</th>
+                                                            <th scope="col">AMOUNT</th>
+                                                            <th scope="col">PAYMENT MODE</th>
+                                                            <th scope="col">STATUS</th>
+                                                            <th scope="col">ACTION</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>#98765490</td>
+                                                            <td>Headsets</td>
+                                                            <td>Cherry Blossom</td>
+                                                            <td>30 Aug 2021</td>
+                                                            <td>$6.721</td>
+                                                            <td>Online Payment</td>
+                                                            <td><span class="badge text-bg-success">Shipped</span></td>
+                                                            <td>
+                                                                <div class="d-flex align-items-center gap-3 user-tool">
+                                                                    <button class="text-info"><i
+                                                                            class="bi bi-pencil-square"></i></button>
+                                                                    <button class="text-danger"><i
+                                                                            class="bi bi-trash"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>#98765490</td>
+                                                            <td>Headsets</td>
+                                                            <td>Cherry Blossom</td>
+                                                            <td>30 Aug 2021</td>
+                                                            <td>$6.721</td>
+                                                            <td>Online Payment</td>
+                                                            <td><span class="badge text-bg-danger">Cancelled</span>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex align-items-center gap-3 user-tool">
+                                                                    <button class="text-info"><i
+                                                                            class="bi bi-pencil-square"></i></button>
+                                                                    <button class="text-danger"><i
+                                                                            class="bi bi-trash"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>#98765490</td>
+                                                            <td>Headsets</td>
+                                                            <td>Cherry Blossom</td>
+                                                            <td>30 Aug 2021</td>
+                                                            <td>$6.721</td>
+                                                            <td>Online Payment</td>
+                                                            <td><span class="badge text-bg-warning">Pending</span></td>
+                                                            <td>
+                                                                <div class="d-flex align-items-center gap-3 user-tool">
+                                                                    <button class="text-info"><i
+                                                                            class="bi bi-pencil-square"></i></button>
+                                                                    <button class="text-danger"><i
+                                                                            class="bi bi-trash"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>#98765490</td>
+                                                            <td>Headsets</td>
+                                                            <td>Cherry Blossom</td>
+                                                            <td>30 Aug 2021</td>
+                                                            <td>$6.721</td>
+                                                            <td>Online Payment</td>
+                                                            <td><span class="badge text-bg-success">Shipped</span></td>
+                                                            <td>
+                                                                <div class="d-flex align-items-center gap-3 user-tool">
+                                                                    <button class="text-info"><i
+                                                                            class="bi bi-pencil-square"></i></button>
+                                                                    <button class="text-danger"><i
+                                                                            class="bi bi-trash"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>#98765490</td>
+                                                            <td>Headsets</td>
+                                                            <td>Cherry Blossom</td>
+                                                            <td>30 Aug 2021</td>
+                                                            <td>$6.721</td>
+                                                            <td>Online Payment</td>
+                                                            <td><span class="badge text-bg-danger">Cancelled</span></td>
+                                                            <td>
+                                                                <div class="d-flex align-items-center gap-3 user-tool">
+                                                                    <button class="text-info"><i
+                                                                            class="bi bi-pencil-square"></i></button>
+                                                                    <button class="text-danger"><i
+                                                                            class="bi bi-trash"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>#98765490</td>
+                                                            <td>Headsets</td>
+                                                            <td>Cherry Blossom</td>
+                                                            <td>30 Aug 2021</td>
+                                                            <td>$6.721</td>
+                                                            <td>Online Payment</td>
+                                                            <td><span class="badge text-bg-success">Shipped</span></td>
+                                                            <td>
+                                                                <div class="d-flex align-items-center gap-3 user-tool">
+                                                                    <button class="text-info"><i
+                                                                            class="bi bi-pencil-square"></i></button>
+                                                                    <button class="text-danger"><i
+                                                                            class="bi bi-trash"></i></button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+
+    <div class="offcanvas offcanvas-end notifications-canvas" tabindex="-1" id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h6 class="offcanvas-title d-flex align-items-center gap-3" id="offcanvasRightLabel">
+                <i class="fa-regular fa-bell"></i>
+                Notifications
+            </h6>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-0 pt-0">
+            <div class="tabs-main">
+
+                <ul class="nav nav-pills mb-3 pt-3 justify-content-around" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active d-flex align-items-center gap-2" id="pills-home-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                            aria-controls="pills-home" aria-selected="true">
+                            <i class="bi bi-gear"></i>
+                            Feeds
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link d-flex align-items-center gap-2" id="pills-profile-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">
+                            <i class="bi bi-chat"></i>
+                            chat
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link d-flex align-items-center gap-2" id="pills-contact-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">
+                            <i class="bi bi-calendar-range"></i>
+                            Timeline
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content px-2" id="pills-tabContent">
+
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="">
+                            <h5 class="offcanvas-title">Feeds</h5>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-4 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-purple"><i class="bi bi-person"></i></span>
+                                    <p>New user registered</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-blue"><i class="bi bi-cart2"></i></span>
+                                    <p>New order delivered</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-red"><i class="bi bi-bell"></i></span>
+                                    <p>You have pending tasks</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-yellow"><i class="bi bi-git"></i></span>
+                                    <p>New version arrived</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-pink"><i class="bi bi-database"></i></span>
+                                    <p>Server #1 overloaded</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-blue-dark"><i
+                                            class="bi bi-check-lg"></i></span>
+                                    <p>New project launched</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="mt-5">
+                            <h5 class="offcanvas-title">Settings</h5>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-4 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-purple"><i class="bi bi-gear"></i></span>
+                                    <p>General Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-blue"><i class="bi bi-map"></i></span>
+                                    <p>Map Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-red"><i class="bi bi-headphones"></i></span>
+                                    <p>Support Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-pink"><i
+                                            class="bi bi-credit-card"></i></span>
+                                    <p>Payment Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                            <div class="notification-box d-flex align-items-center justify-content-between ps-3 pe-2 mt-3 alert mb-0 py-0 alert-dismissible fade show"
+                                role="alert">
+                                <div class="d-flex align-items-center gap-3">
+                                    <span class="notification-icone notify-yellow"><i class="bi bi-git"></i></span>
+                                    <p>Notification Settings</p>
+                                </div>
+                                <div class="d-flex align-items-center gap-2 notify-tools">
+                                    <button><i class="bi bi-gear"></i></button>
+                                    <button data-bs-dismiss="alert" aria-label="Close"><i
+                                            class="bi bi-x-lg"></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <h5 class="offcanvas-title">Today</h5>
+                        <div class="user-box d-flex align-items-center gap-3 mt-4">
+                            <div>
+                                <img src="./assets/img/user2.jpg" />
+                            </div>
+                            <div class="user-box-text">
+                                <p>Addie Minstra</p>
+                                <span>Hey! there I' am available</span>
+                            </div>
+                        </div>
+                        <div class="user-box d-flex align-items-center gap-3 mt-3">
+                            <div>
+                                <img src="./assets/img/user.jpg" />
+                            </div>
+                            <div class="user-box-text">
+                                <p>Claude Strophobia</p>
+                                <span>Hi we can explain our new project new project </span>
+                            </div>
+                        </div>
+                        <div class="user-box d-flex align-items-center gap-3 mt-3">
+                            <div>
+                                <img src="./assets/img/user3.jpg" />
+                            </div>
+                            <div class="user-box-text">
+                                <p>Rose Bush</p>
+                                <span>Okay...l will be wafting for you</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-5">
+                            <h5 class="offcanvas-title">Yesterday</h5>
+
+                            <div class="user-box d-flex align-items-center gap-3 mt-3">
+                                <div>
+                                    <img src="./assets/img/user.jpg" />
+                                </div>
+                                <div class="user-box-text">
+                                    <p>Claude Strophobia</p>
+                                    <span>Hi we can explain our new project new project </span>
+                                </div>
+                            </div>
+                            <div class="user-box d-flex align-items-center gap-3 mt-3">
+                                <div>
+                                    <img src="./assets/img/user3.jpg" />
+                                </div>
+                                <div class="user-box-text">
+                                    <p>Rose Bush</p>
+                                    <span>Okay...l will be wafting for you</span>
+                                </div>
+                            </div>
+                            <div class="user-box d-flex align-items-center gap-3 mt-4">
+                                <div>
+                                    <img src="./assets/img/user2.jpg" />
+                                </div>
+                                <div class="user-box-text">
+                                    <p>Addie Minstra</p>
+                                    <span>Hey! there I' am available</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+
+                        <div class="timeline-main position-relative">
+                            <div class="timeline-box ps-5 pe-1 position-relative">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                            <div class="timeline-box ps-5 pe-1 position-relative mt-4">
+                                <div class="d-flex align-items-center gap-2 justify-content-between">
+                                    <label>Task Finished <span>09 July 2021</span></label>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button><i class="bi bi-pencil-square"></i></button>
+                                        <button><i class="bi bi-trash"></i></button>
+                                    </div>
+                                </div>
+                                <p class="ms-0">Adam Berry finished task on <span class="text-theme">Project
+                                        Management</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="./assets/js/index.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [12, 19, 3, 5, 2, 3],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- js -->
+
+</body>
+
+</html>
