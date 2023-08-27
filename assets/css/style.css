@@ -232,6 +232,12 @@ p {
     z-index: 9;
 }
 
+.logo p{
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
 .menu-title {
     font-size: 11px;
     font-weight: 500;
@@ -999,5 +1005,31 @@ hr {
 
 /* card contact */
 
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.loader.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loader p{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #0093ED;
+}
 
 /* ***** card section End ***** */

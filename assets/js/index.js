@@ -55,3 +55,12 @@ function openFullscreen() {
         elem.msRequestFullscreen();
     }
 }
+
+
+// loader
+document.addEventListener("DOMContentLoaded", function () {
+    // Hide the loader when the page finishes loading
+    setTimeout(function () {
+        document.querySelector(".loader").classList.add("hidden");
+    }, 1000); // Adjust the delay as needed
+});
