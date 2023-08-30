@@ -1062,4 +1062,12 @@ hr {
 
 /* card contact */
 
+/* Primary card */
+.card.primary-card h6,
+.card.info-card h6,
+.card.success-card h6{
+  font-size: 18px;
+}
+/* Primary card */
+
 /* ***** card section End ***** */
