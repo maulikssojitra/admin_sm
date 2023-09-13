@@ -869,6 +869,12 @@ hr {
   font-size: 16px;
 }
 
+@media (max-width: 768px) {
+  .start-boot-def p{
+    font-size: 14px;
+  }
+}
+
 /* Get-Started end */
 
 /* ***** card section Start ***** */
@@ -1065,8 +1071,11 @@ hr {
 /* Primary card */
 .card.primary-card h6,
 .card.info-card h6,
-.card.success-card h6{
-  font-size: 18px;
+.card.success-card h6,
+.card.warning-card h6,
+.card.secondary-card h6,
+.card.danger-card h6{
+  font-size: 16px;
 }
 /* Primary card */
 
